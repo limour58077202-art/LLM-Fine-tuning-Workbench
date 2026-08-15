@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Build / output
+outputs/
+dist/
+build/
+
+# Runtime data
+.run/
+data/uploads/
+data/*.tmp
+
+# Model cache and checkpoints
+models_cache/
+checkpoints/
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Streamlit
+.streamlit/
+
+# Jupyter
+.ipynb_checkpoints/
