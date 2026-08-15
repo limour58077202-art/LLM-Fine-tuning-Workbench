@@ -386,8 +386,55 @@ Use this instruction in the frontend sidebar when uploading it:
 * DeepSeek-powered AI assistant for evaluation insights
 * DeepSeek-powered inference test
 
+---
+
+## Notes
+
+* `models_cache/`, `data/`, and `outputs/` are **not included in GitHub**
+* Training models will be downloaded automatically if not found locally
+* DeepSeek API keys are entered locally or read from `DEEPSEEK_API_KEY`
+* Some models (e.g., LLaMA) may require Hugging Face access
+
+---
+
+## Reproducibility
+
+The system ensures reproducibility by:
+
+* Using deterministic seeds
+* Supporting local + remote model loading
+* Providing a model download script
+
+---
+
+## Tech Stack
+
+* Backend: FastAPI
+* Frontend: Streamlit
+* ML: PyTorch, Transformers, PEFT
+* Dataset: HuggingFace Datasets
+
+---
+
+## Contact
+
+For questions or issues, please open an issue or contact the author.
+
+---
+
 ## Credits
 
 This project is modified based on [RayanYe/LLM-SFT-Platform](https://github.com/RayanYe/LLM-SFT-Platform).
 
 Original copyright belongs to the original author.
+
+The original project is licensed under the Apache License 2.0.
+
+Modifications in this repository include:
+
+* DeepSeek API integration
+* Frontend instruction input
+* Built-in 500-sample sentiment dataset
+* HTML training report export
+* One-click macOS launcher
+* Simplified training monitor workflow
