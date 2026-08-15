@@ -391,14 +391,3 @@ Use this instruction in the frontend sidebar when uploading it:
 This project is modified based on [RayanYe/LLM-SFT-Platform](https://github.com/RayanYe/LLM-SFT-Platform).
 
 Original copyright belongs to the original author.
-
-The original project is licensed under the Apache License 2.0.
-
-Modifications in this repository include:
-
-* DeepSeek API integration
-* Frontend instruction input
-* Built-in 500-sample sentiment dataset
-* HTML training report export
-* One-click macOS launcher
-* Simplified training monitor workflow
